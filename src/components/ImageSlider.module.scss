@@ -1,0 +1,33 @@
+* {
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.slider {
+    width: 360px;
+    margin: 0 auto;
+    margin-top: 100px;
+    img {
+        width: 360px;
+        height: 250px;
+    }
+
+    .btn__container {
+        display: flex;
+        justify-content: space-between;
+        button {
+            width: 50%;
+            height: 50px;
+            font-size: 30px;
+            border: none;
+            cursor: pointer;
+            color: yellow;
+            background: darkblue;
+            border: 1px solid yellow;
+            transition: all 0.2s ease;
+        }
+        button:hover {
+            background: rgb(5, 5, 37);
+        }
+    }
+}
